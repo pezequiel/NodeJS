@@ -1,7 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+import { DashboardAirComponent } from './dashboard-air/dashboard-air.component';
+import { DashboardWaterComponent } from './dashboard-water/dashboard-water.component';
+
+const routes: Routes = [
+  { path: '',                  component: DashboardAirComponent    },
+  { path: 'dataset-02',        component: DashboardAirComponent    },
+  { path: 'dataset-02-water',  component: DashboardWaterComponent  }
+];
+
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
