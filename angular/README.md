@@ -113,3 +113,17 @@ ng generate module dataset-02 --routing
 
 
 ----------
+TODO:
+
+    Repasar Routes con Child...
+
+    Fuentes:
+    https://stackoverflow.com/questions/40132186/error-cannot-match-any-routes-url-segment
+    https://plnkr.co/edit/JcMZSrYAH1WDnViP7Mxh?p=preview
+
+    Otra:
+    https://www.youtube.com/watch?v=Rhc3sOEhP4A
+    MUY BUENO! Y SOBRE ANGULAR 5....
+    CONTIENE SUB ROUTING.... Y un ejemplo Completo
+
+Por ahora cierro el post aca ....  tengo el video de ejemplo

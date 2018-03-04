@@ -1,0 +1,14 @@
+div {
+    background: rgb(143, 201, 167);
+    color: white;
+    width: 30%;
+    height: 120px;
+}
+
+p {
+    background: rgb(13, 116, 56);
+    color: white;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+}

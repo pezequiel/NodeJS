@@ -6,6 +6,9 @@ const routes: Routes = [
   { path: 'dataset-01',  loadChildren: 'app/dataset-01/dataset-01.module#Dataset01Module'   },
   { path: 'dataset-02',  loadChildren: 'app/dataset-02/dataset-02.module#Dataset02Module'   },
 
+  // { path: 'dataset-01/:id',   loadChildren: 'app/dataset-01/dataset-01.module#Dataset01Module'   },
+  // { path: 'dataset-02/water', loadChildren: 'app/dataset-02/dataset-02.module#Dataset02Module'   },
+ 
   {
     path: '',
     redirectTo: '',

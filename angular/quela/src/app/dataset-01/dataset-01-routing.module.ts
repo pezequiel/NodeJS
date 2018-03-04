@@ -6,9 +6,17 @@ import { DashboardAirComponent } from './dashboard-air/dashboard-air.component';
 import { DashboardWaterComponent } from './dashboard-water/dashboard-water.component';
 
 const routes: Routes = [
-  { path: '',                  component: DashboardAirComponent    },
-  { path: 'dataset-01',        component: DashboardAirComponent    },
-  { path: 'dataset-01-water',  component: DashboardWaterComponent  }
+
+  { path: '',            component: DashboardAirComponent     },
+
+  
+  // { path: 'airQ',        component: DashboardAirComponent    },
+  // { path: 'waterQ',        component: DashboardWaterComponent  },
+
+  // { path: '/airQ',        component: DashboardAirComponent    },
+  // { path: '/waterQ',        component: DashboardWaterComponent  }
+
+
 ];
 
 
